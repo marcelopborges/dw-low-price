@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dw-low-price"
+version = "0.1.0"
+description = ""
+authors = ["marcelo-borges <marcelo.b.orges@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+fastapi = "^0.105.0"
+uvicorn = "^0.25.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
